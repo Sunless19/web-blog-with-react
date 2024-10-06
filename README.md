@@ -1,6 +1,5 @@
 # web-blog-with-react
-
-## A simple web app for a blog
+## Web app made with react
 
 - use npm run dev inside the backend to start the server
 - use npm start to start the blog( frontend )
