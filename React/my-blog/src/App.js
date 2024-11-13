@@ -6,7 +6,7 @@ import NotFoundPage from './Pages/NotFoundPage';
 import AboutPage from './Pages/AboutPage';
 import { Routes,BrowserRouter,Route } from 'react-router-dom';
 import NavBar from './NavBar';
-
+import Calculi from './Pages/Calculi';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
           <Route path="articles/:articleId" element={<ArticlePage />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="*" element={<NotFoundPage />} />
+          <Route path="simple-calculi" element={<Calculi />} />
         </Routes>
       </div>
     </div>
